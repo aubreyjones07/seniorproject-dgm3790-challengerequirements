@@ -12,7 +12,7 @@ new Vue ({
     y: 0
     },
     methods: {
-        increase: function(step){
+        increase: function(step, event){
             this.counter += step; 
 
         }, 
