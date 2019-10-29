@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">      
+<link rel="stylesheet" type="text/css" href="css/main.css">          
+<title>Senior Project</title>       
+</head>
+<body>
+   
+  
+    
+<header>  
+
+
+</header>     
+    
+ 
+<main>
+   
+ <div id="app">
+  <button v-on:click="increase(2, $event)">Click me</button>
+  <p>{{ counter }}</p>
+<p v-on:mousemove="updateCoordinates">Coordinates: {{ x }} / {{ y }}</p>
+- <span v-on:mousemove.stop="">DEAD SPOT</span>
+ </div>
+    
+    
+</main>
+    
+<footer>
+ 
+ <div class="copyright">      
+        
+    <p>UVU Senior Project Copyright &copy; November 2019 Aubrey Barnes</p>
+    
+ </div>        
+    
+    
+    
+</footer>    
+    
+    
+</body> 
+
+<script src="js/vue.js"></script>
+<script src="js/main.js"></script>    
+
+
+
+
+</html>
