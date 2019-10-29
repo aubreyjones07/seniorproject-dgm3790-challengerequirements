@@ -20,6 +20,10 @@ new Vue ({
             this.x = event.clientX; 
             this.y = event.clientY; 
 
+        }, 
+        alertMe: function(){
+            alert('Alert!')
+
         }
         
 
